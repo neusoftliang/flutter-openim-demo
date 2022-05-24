@@ -56,7 +56,10 @@ dependencies:
   dotted_decoration: ^2.0.0
   package_info_plus: ^1.4.0
   search_keyword_text: ^0.0.1
-  qr_code_scanner: ^0.7.0
+  qr_code_scanner:
+    git:
+      url: https://github.com/X-SLAYER/qr_code_scanner.git
+      ref: flutter-beta
   pretty_dio_logger: ^1.2.0-beta-1
   logger: ^1.1.0
   jpush_flutter: ^2.2.2
@@ -82,7 +85,7 @@ dependencies:
   flutter_bugly: ^0.4.4
   tencent_cos: ^1.0.4
   flutter_cupertino_datetime_picker: ^3.0.0
-  flutter_openim_widget: ^0.0.11
+  flutter_openim_widget: ^2.0.8
 
 
 #dependency_overrides:

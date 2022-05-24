@@ -5,20 +5,14 @@ import 'package:country_code_picker/country_codes.dart';
 import 'package:country_code_picker/selection_dialog.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
-import 'package:flutter_openim_sdk/flutter_openim_sdk.dart';
 import 'package:flutter_openim_widget/flutter_openim_widget.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 import 'package:image_picker/image_picker.dart';
-import 'package:openim_demo/src/pages/chat/group_setup/group_member_manager/member_list/member_list_logic.dart';
 import 'package:openim_demo/src/pages/register/select_avatar/select_avatar_view.dart';
-import 'package:openim_demo/src/res/images.dart';
 import 'package:openim_demo/src/res/strings.dart';
-import 'package:openim_demo/src/res/styles.dart';
-import 'package:openim_demo/src/routes/app_navigator.dart';
 import 'package:openim_demo/src/utils/http_util.dart';
 import 'package:openim_demo/src/utils/im_util.dart';
-import 'package:sprintf/sprintf.dart';
 
 import 'bottom_sheet_view.dart';
 

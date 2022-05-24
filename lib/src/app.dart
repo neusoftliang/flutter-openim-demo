@@ -33,6 +33,7 @@ class EnterpriseChatApp extends StatelessWidget {
         locale: locale,
         localeResolutionCallback: (locale, list) {
           Get.locale ??= locale;
+          return null;
         },
         supportedLocales: [
           const Locale('zh', 'CN'),
