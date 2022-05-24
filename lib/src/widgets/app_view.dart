@@ -26,6 +26,7 @@ class AppView extends StatelessWidget {
             builder: (context, widget) {
               return widget!;
             },
+
           )),
         ),
       ),
